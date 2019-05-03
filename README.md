@@ -6,18 +6,43 @@ I've decided to invest some time studying Data Structures and Algorithms and to 
 
 This repository will serve as reference for my self but maybe it helps someone else.
 
+## Contributing
+
+### Development Environment
+
+To install the dependences
+
+- `npm install`
+
+To run the tests locally
+
+- `npm run test` or `npm run test:watch` to watch for file changes.
+
+### Commit Messages Pattern
+
+The pattern used for commit messages will be:
+
+`type([DataStructure]): [Message]`
+
+Types:
+
+- feat
+- fix
+
+Ex: `feat(Stack): Add algorithm implementation`
+
 ## How it's organized
 
 I'll organize the structure like this:
 
 - root
   - [DataStructure-1]
-    - Implementation
-      - [DataStructure-1].js
+    - [DataStructure-1].js
+    - [DataStructure-1].test.js
     - Usage
       - [SomeAlgorithmSolving].js
   - [DataStructure-2]
-    - Implementation
-      - [DataStructure-2].js
+    - [DataStructure-2].js
+    - [DataStructure-2].test.js
     - Usage
       - [SomeAlgorithmSolving].js
