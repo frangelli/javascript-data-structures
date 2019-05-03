@@ -1,5 +1,7 @@
 # Java Script Data Structures
 
+[![Build Status](https://travis-ci.com/frangelli/javascript-data-structures.svg?branch=master)](https://travis-ci.com/frangelli/javascript-data-structures)
+
 ## Purpose
 
 I've decided to invest some time studying Data Structures and Algorithms and to really understand the underlaying of how some Data Structures works... I've decided to implement them in Javascript ( given that this is the language that I've been using at work ).
